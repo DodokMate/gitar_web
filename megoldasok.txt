@@ -1,0 +1,31 @@
+-- 10. feladat:
+CREATE DATABASE gitarmuveszek
+  DEFAULT CHARACTER SET utf8
+  COLLATE utf8_hungarian_ci;
+
+-- 12. feladat:
+DELETE FROM stilus
+  WHERE stilus.stilusNev='swing';
+
+-- 13. feladat:
+SELECT
+  COUNT(*) AS 'darab'
+FROM
+  zenekar;
+
+-- 14. feladat:
+SELECT 
+  DISTINCT muvesz.nemzetiseg 
+FROM 
+  muvesz
+WHERE
+  muvesz.nemzetiseg IS NOT NULL
+ORDER BY
+  muvesz.nemzetiseg ASC;
+
+-- 15. feladat:
+
+
+-- 16. feladat:
+
+
